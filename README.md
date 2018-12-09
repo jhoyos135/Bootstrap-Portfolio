@@ -1,3 +1,3 @@
 Basic Portfolio
 
-* this website uses css such as flex and grid for layout
+* At the end of the day I decided to go with materialize for my css framework of choice, is pretty similar but I liked it more.
