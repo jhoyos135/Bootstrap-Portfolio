@@ -58,7 +58,7 @@ h1 {
 a {
     text-decoration: none;
     padding: 0 15px;
-    color: #333;
+    color: #333 ;
 }
 p {
     line-height: 1.5;
@@ -201,6 +201,10 @@ header li.active:before {
     padding: 15px;
 }
 
+.grid-container a {
+    color: white !important;
+}
+
 /*===== INDEX =====*/
 .profile-pic {
     height: 300px;
@@ -260,19 +264,19 @@ header li.active:before {
 /*===== PORTFOLIO =====*/
 
 .image-container-1 {
-    background-image: url('assets/images/portfolio/image_1.jpeg');
+    background-image: url('assets/images/portfolio/Screenshot_2019-02-19_Brezzz.png');
 }
 .image-container-2 {
-    background-image: url('assets/images/portfolio/image_2.jpeg');
+    background-image: url('assets/images/portfolio/Screenshot_2019-02-18_guess.png');
 }
 .image-container-3 {
-    background-image: url('assets/images/portfolio/image_3.jpeg');
+    background-image: url('assets/images/portfolio/Screenshot_2019-02-18_gif.png');
 }
 .image-container-4 {
-    background-image: url('assets/images/portfolio/image_4.jpeg');
+    background-image: url('assets/images/portfolio/Screenshot_2019-02-18_Movies.png');
 }
 .image-container-5 {
-    background-image: url('assets/images/portfolio/image_5.jpeg');
+    background-image: url('assets/images/portfolio/Screenshot_2019-02-18_Multiplayer.png');
 }
 .image-container {
     background-size: cover;
@@ -295,8 +299,29 @@ header li.active:before {
     opacity: 0;
     transition: 0.2s all ease-in-out 0.1s;
 }
+.github {
+    position: absolute;
+    width: 100%;
+    color: white;
+    padding: 15px;
+    top: 0;
+    text-align: right;
+    opacity: 0;
+    transition: 0.2s all ease-in-out 0.1s;
+}
+.github a {
+    color: white !important;
+}
+.github i {
+    background-color: #4aaaa5;
+    padding: 5px;
+}
 .image-container:hover .title-container {
     bottom: 25px;
+    opacity: 1;
+}
+.image-container:hover .github {
+    top: 25px;
     opacity: 1;
 }
 
